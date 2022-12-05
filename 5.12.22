@@ -213,6 +213,6 @@ else:
             c=c/2
         else:
             c=(3*c+1)/2
-        print(int(c), end="")
+        print(int(c), end=" ")
     print()
     print("Гипотеза верна")
