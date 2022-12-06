@@ -86,14 +86,16 @@ print(summa/60)
 ###option.1
 #from math import*
 
-for i in range(1,10):
-    a,b=map(int,input().split())
-    if a==0 and  b==0: break
-    else:
-        if a>b:
-            print(a)
-        if a<b: 
-            print(b)
+for i in range(1,5):
+    a,b=map(int,input("sisesta num").split())
+    if a==0 and b==0: break
+    if a>b:
+        print(f"{a} rohkem kui {b}")
+        text+=" "+str(a)
+    if a<b:
+        print(f"{a} vahem kui {b}")
+        text+=" "+str(b)
+print(text)
 
 ##option2.
 from math import* 
